@@ -24,6 +24,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    //生成带详细信息的apk 文件名
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "DreamLauncher-${variant.versionName}.apk"
+        }
+    }
 }
 
 dependencies {
