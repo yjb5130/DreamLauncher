@@ -7,7 +7,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:background="@drawable/blue_theme">
+    android:background="@drawable/wallpaper_01">
 
     <GridView
         android:id="@+id/apps_list"
